@@ -113,7 +113,7 @@ function App() {
         <div className={
                 sidebarIsOpen
                     ? 'active-nav side-navbar d-flex justify-content-between flex-wrap flex-column'
-                    : 'side-nav d-flex justify-content-between flex-wrap flex-column'
+                    : 'side-navbar d-flex justify-content-between flex-wrap flex-column'
             }
         >
             <Nav className='flex-column text-white w-100 p-2'>
