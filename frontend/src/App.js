@@ -141,7 +141,7 @@ function App() {
                     <Route path="/signup" element={<SignupScreen />} />
                     <Route path="/profile" element={<ProfileScreen />} />
                     <Route path="/placeorder" element={<PlaceOrderScreen />} />
-                    <Route path="/order/:id" element={<OrderScreen />} />
+                    <Route path="/orders/:id" element={<OrderScreen />} />
                     <Route path="/orderhistory" element={<OrderHistoryScreen />} />
                     <Route path="/shipping" element={<ShippingAddressScreen />} />
                     <Route path="/payment" element={<PaymentMethodScreen />} />
